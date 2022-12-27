@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  background-color: rgb(36, 36, 36);
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 5px solid hsl(200, 100%, 60%);
+  width: 15rem;
+  padding-bottom: 0.2rem;
+}
+
+#content li {
+  list-style-type: none;
+  margin: 4rem 0;
+}
+
+#content a {
+  text-decoration: none;
+  color: #000;
+  background-color: hsl(200, 100%, 60%);
+  padding: 1rem;
+  border-radius: 20px;
+  font-size: 1.2rem;
+}
+
+#content a:hover {
+  background-color: hsl(200, 100%, 40%);
+}
